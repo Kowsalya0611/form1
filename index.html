@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="webpage.js"defer></script>
+    <title>Form Validation Project</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <img class="background" src="blurred-colorful-wallpaper-background_976742-179.jpeg" alt="students">
+    <h1>ESWARAN COLLEGE OF ENGINEERING AND TECHNOLOGY</h1>
+    <div class="container">
+   
+        <h2>Register</h2>
+        <form id="myForm" onsubmit="return validateForm()">
+            
+            <label  for="name">Name:</label>
+            <input type="text" id="name" required><br>
+            <span class="error" id="nameError"></span><br>
+    
+            <label for="email">Email:</label>
+            <input type="text" id="email" required><br>
+            <span class="error" id="emailError"></span><br>
+    
+            <label for="password">Password:</label>
+            <input type="password" id="password" required><br>
+            <span class="error" id="passwordError"></span><br>
+    
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" required><br>
+            <span class="error" id="confirmPasswordError"></span><br>
+    
+            <input class="submit" type="submit" value="Submit">
+        </form>
+    
+    </div>
+<button class="home" >HOME
+
+</button>
+<button class="about">ABOUT US
+
+</button>
+<button class="academics">ACADEMICS
+
+</button>
+<button class="admission">ADMISSION
+
+</button>
+<button class="contact">CONTACT US
+</button>
+</body>
+</html>
